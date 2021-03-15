@@ -23,7 +23,8 @@ groups = groups[!is.na(groups$grp1_base_sd),] # remove 22 rows without sd
 groups = groups %>%
   mutate(q = (grp1_base_n - 1) * grp1_base_sd^2 + grp1_base_n * grp1_base_mean^2) %>%
   mutate(qc = sum(q)) %>%
-  mutate(overall_sd = sqrt(qc - n * overall_mean^2 / (n-1)))
+  mutate(overall_var = (qc - n * overall_mean^2) / (n-1)) %>%
+  mutate(overall_sd = sqrt((qc - n * overall_mean^2) / (n-1)))
 
 report = groups[,c(2, 9, 12)]
 unique(report)
