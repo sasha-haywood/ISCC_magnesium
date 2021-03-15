@@ -10,17 +10,13 @@ iMg = unite(iMg, group, 2:3, remove = T)
 missing.sd = is.na(iMg$grp1_base_sd)
 iMg$grp1_base_sd[missing.sd] = with(iMg, grp1_base_se[missing.sd] * 
                                       sqrt(grp1_base_n[missing.sd]))
-
+iMg = iMg[!is.na(iMg$grp1_base_sd),] # remove 22 rows without sd
   
 groups = iMg %>%
   group_by(group) %>%
   mutate(n = sum(grp1_base_n)) %>%
   mutate(weighted.mean = grp1_base_mean * grp1_base_n / (n-1)) %>%
-  mutate(overall_mean = sum(weighted.mean))
-
-groups = groups[!is.na(groups$grp1_base_sd),] # remove 22 rows without sd
-
-groups = groups %>%
+  mutate(overall_mean = sum(weighted.mean)) %>%
   mutate(q = (grp1_base_n - 1) * grp1_base_sd^2 + grp1_base_n * grp1_base_mean^2) %>%
   mutate(qc = sum(q)) %>%
   mutate(overall_var = (qc - n * overall_mean^2) / (n-1)) %>%
