@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, include = F}
 library(readr)
 library(dplyr)
+library(tidyr)
+library(knitr)
 iMg = read_csv("iMg_EXTRACTION_Resultsfinal_Ansu.csv")
 iMg = iMg[,c(1, 4, 7, 9, 10, 11, 12)] # 261 rows
 iMg = iMg[!is.na(iMg$grp1_base_mean),] # remove 18 rows without means
@@ -28,13 +30,15 @@ groups = iMg %>%
   group_by(group) %>%
   mutate(n = sum(grp1_base_n)) %>%
   mutate(weighted.mean = grp1_base_mean * grp1_base_n / (n-1)) %>%
-  mutate(overall_mean = sum(weighted.mean)) %>%
+  mutate(mean = sum(weighted.mean)) %>%
   mutate(q = (grp1_base_n - 1) * grp1_base_sd^2 + grp1_base_n * grp1_base_mean^2) %>%
   mutate(qc = sum(q)) %>%
-  mutate(overall_var = (qc - n * overall_mean^2) / (n-1)) %>%
-  mutate(overall_sd = sqrt((qc - n * overall_mean^2) / (n-1)))
+  mutate(var = (qc - n * mean^2) / (n-1)) %>%
+  mutate(sd = sqrt((qc - n * mean^2) / (n-1)))
 
 report1 = groups[,c(2, 9, 13)]
+unique(report1)
+
 
 ######### alternate code 
 ########## this code leave in the lines that only have mean until overall mean has been calculated
@@ -56,7 +60,7 @@ groups = iMg %>%
   group_by(group) %>%
   mutate(n = sum(grp1_base_n)) %>%
   mutate(weighted.mean = grp1_base_mean * grp1_base_n / (n-1)) %>%
-  mutate(overall_mean = sum(weighted.mean))
+  mutate(mean = sum(weighted.mean))
 
 groups = groups[!is.na(groups$grp1_base_sd),] # remove 22 rows without sd
 
@@ -64,69 +68,96 @@ groups = groups %>%
   mutate(new_n = sum(grp1_base_n)) %>%
   mutate(q = (grp1_base_n - 1) * grp1_base_sd^2 + grp1_base_n * grp1_base_mean^2) %>%
   mutate(qc = sum(q)) %>%
-  mutate(overall_var = (qc - new_n * overall_mean^2) / (n-1)) %>%
-  mutate(overall_sd = sqrt((qc - new_n * overall_mean^2) / (n-1)))
+  mutate(var = (qc - new_n * mean^2) / (n-1)) %>%
+  mutate(sd = sqrt((qc - new_n * mean^2) / (n-1)))
 
 report2 = groups[,c(2, 9, 14)]
 
+# compare difference in means, depending on when we remove the lines with missing sd
+m1 = unique(report1)
+m2 = unique(report2)
+
+# rows with NaN overall sd have only one observation, so overall sd is same as original sd
+m1[10,3] = 0.080
+m2[10,3] = 0.080
+m1[11,3] = 0.055
+m2[11,3] = 0.055
+
+m1 = m1[order(m1$group),] 
+m2 = m2[order(m2$group),] 
+
+m1 = m1 %>%
+  mutate(lower = mean - 1.96 * sd) %>%
+  mutate(upper = mean + 1.96 * sd)
+m2 = m2 %>%
+  mutate(lower = mean - 1.96 * sd) %>%
+  mutate(upper = mean + 1.96 * sd)
+
+m1 = separate(m1, group, c("health condition", "metric"), sep = "_")
+m2 = separate(m2, group, c("health condition", "metric"), sep = "_")
+
+m1[6,2] = "Serum Mg"
+m2[6,2] = "Serum Mg"
 ```
 
 # Introduction
 The end goal of this project is to determine a reference range for ionized magnesium and total magnesium concentrate in people with different health conditions.  The results from a number of studies have been compiled, and our initial objective is to combine the means and standard deviations from those seperate studies.  The initial collection of data includes studies of people with five different health conditions.
-* diabetes 
-* hypertension
-* renal disease
-* cardiovascular disease
-* healthy
+
+ * diabetes 
+ * hypertension
+ * renal disease
+ * cardiovascular disease
+ * healthy
+
 For each health condition, there are two measurements.
-* ionized magnesium 
-* total magnesium concentration.
+
+ * ionized magnesium 
+ * total magnesium concentration.
+
+Additionally, the data includes total serum magnesium concentration for healthy individuals.
 
 # The Data
-The data set contains one observation for each study/group/condition/measurement combination.  Not all conditions are included in all studies.  For example, there are 24 study/group observations reporting ionized magnesium in people with cardiovascular disease, but only one reporting total magnesium in people with hypertension.  Studies range in size from samples of 6 to 1,652 people.  For each study, we should have sample size, mean, and standard deviation or standard error.  In the cases where the mean or sample size is missing, there is no way to include the observation in a weighted mean.  This includes 28 rows which must be excluded from the calculation.  A number of observations have a reported standard error, but no standard deviation.  In those cases, the standard deviation has been calculated using the following formula:
-se * sqrt(sample size)
-After making this calculation, there remain 22 obervations with no standard deviation.  We have managed this discrepancy in two different ways, explained as follows.
+The data set contains one observation for each study/group/condition/measurement combination.  Not all conditions are included in all studies.  For example, there are 24 study/group observations reporting ionized magnesium in people with cardiovascular disease, but only one reporting total magnesium in people with hypertension.  Studies range in size from samples of 6 to 1,652 people.  For each study, we should have sample size, mean, and standard deviation or standard error.  In the cases where the mean or sample size is missing, there is no way to include the observation in a weighted mean.  This includes 28 rows which must be excluded from all calculations.  A number of observations have a reported standard error, but no standard deviation.  In those cases, the standard deviation has been calculated using the formula $s = s_{\bar x} \times \sqrt n$
+After making this calculation, there remain 22 observations with no standard deviation.  We have managed this discrepancy in two different ways, explained in the Methods section.
 
 # The Math
 The weighted means are calculated using the formula
-grp1_base_mean * grp1_base_n / (n-1)
+
+$$
+\bar x_t=\  \sum_{i=1}^{k}\frac{\bar x_i \times n_i}{n_t-1} \; \; \text{where} \; \; n_t = \sum_{i=1}^{k}n_i 
+$$
 
 The weighted standard deviations are calculated using the formula
-sqrt(sum((grp1_base_n - 1) * grp1_base_sd^2 + grp1_base_n * grp1_base_mean^2)- n * overall_mean^2) / (n-1))
+
+$$
+s_t = \sqrt\frac{{\sum_{i=1}^{n}((n_i - 1) \times s_i^2 + n_i \times \bar x_i ^2) - n_i \times \bar x_t^2}}{n_t-1}
+$$
 
 # Two Methods
-In our first method, we started by removed the observations with missing standard deviations.   We then calculated the weighted mea and weighted standard deviations without those observations.
+In our first method, we started by removed the observations with missing standard deviations.   We then calculated the weighted mean ($\bar x_t$) and weighted standard deviations ($s_t$) without those observations.
 
-In our second method, we calculated the weighted mean using all observations for which we had both n and mean.  We then removed the 22 observations with no standard deviation, recalculated the total sample sizes (n) and calculated the standard deviation. In our opinion, this is a valid method for analysis and is preferred, as it includes as much information as is available.
+In our second method, we calculated the weighted mean using all observations for which we had both sample size and mean.  We then removed the 22 observations with no standard deviation, recalculated the total sample sizes ($n_t$), and calculated the standard deviation. In our opinion, this is a valid method for analysis and is preferred, as it includes as much information as is available.  Upper and lower bounds are then calculated for all conditions and metrics.
 
 # The Results
-  
-Method 1
-group                   overall_mean overall_sd
-   <chr>                          <dbl>      <dbl>
- 1 CVD_iMg                        0.504     0.0718
- 2 CVD_Total Mg                   0.842     0.0985
- 3 Healthy_iMg                    0.541     0.0659
- 4 Healthy_Total Mg               0.856     0.0701
- 5 Diabetes_Total Mg              0.846     0.113 
- 6 Diabetes_iMg                   0.498     0.137 
- 7 Renal disease_Total Mg         0.941     0.190 
- 8 Renal disease_iMg              0.573     0.104 
- 9 Hypertension_iMg               0.643     0.128 
-10 Hypertension_Total Mg          0.935     0.080     
-11 Healthy_Serum magnesium        0.817     0.055    
 
- Method 2
-   group                   overall_mean overall_sd
-   <chr>                          <dbl>      <dbl>
- 1 CVD_iMg                        0.504     0.0718
- 2 CVD_Total Mg                   0.842     0.0985
- 3 Healthy_iMg                    0.539     0.0798
- 4 Healthy_Total Mg               0.854     0.0873
- 5 Diabetes_Total Mg              0.846     0.113 
- 6 Diabetes_iMg                   0.498     0.137 
- 7 Renal disease_Total Mg         0.947     0.150 
- 8 Renal disease_iMg              0.577     0.0768
- 9 Hypertension_iMg               0.643     0.128 
-10 Hypertension_Total Mg          0.935     0.080    
-11 Healthy_Serum magnesium        0.817     0.055
+\begin{center}
+
+Method 1
+
+\end{center}
+
+```{r, echo = F}
+kable(m1, )
+```
+
+\begin{center}
+
+Method 2
+
+\end{center}
+
+```{r, echo = F}
+kable(m2, )
+``` 
+
+
