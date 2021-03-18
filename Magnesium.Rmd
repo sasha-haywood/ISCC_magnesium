@@ -117,14 +117,14 @@ For each health condition, there are two measurements.
 Additionally, the data includes total serum magnesium concentration for healthy individuals.
 
 # The Data
-The data set contains one observation for each study/group/condition/measurement combination.  Not all conditions are included in all studies.  For example, there are 24 study/group observations reporting ionized magnesium in people with cardiovascular disease, but only one reporting total magnesium in people with hypertension.  Studies range in size from samples of 6 to 1,652 people.  For each study, we should have sample size, mean, and standard deviation or standard error.  In the cases where the mean or sample size is missing, there is no way to include the observation in a weighted mean.  This includes 28 rows which must be excluded from all calculations.  A number of observations have a reported standard error, but no standard deviation.  In those cases, the standard deviation has been calculated using the formula $s = s_{\bar x} \times \sqrt n$
+The data set contains one observation for each study/group/condition/measurement combination.  Not all conditions are included in all studies.  For example, there are 24 study/group observations reporting ionized magnesium in people with cardiovascular disease, but only one reporting total magnesium in people with hypertension.  Studies range in size from samples of 6 to 1,652 people.  For each study, we should have sample size, mean, and standard deviation or standard error.  In the cases where the mean or sample size is missing, there is no way to include the observation in a weighted mean.  This includes 28 rows which must be excluded from all calculations.  A number of observations have a reported standard error, but no standard deviation.  In those cases, the standard deviation has been calculated using the formula $s = se \times \sqrt n$
 After making this calculation, there remain 22 observations with no standard deviation.  We have managed this discrepancy in two different ways, explained in the Methods section.
 
 # The Math
 The weighted means are calculated using the formula
 
 $$
-\bar x_t=\  \sum_{i=1}^{k}\frac{\bar x_i \times n_i}{n_t-1} \; \; \text{where} \; \; n_t = \sum_{i=1}^{k}n_i 
+\bar x_t=\  \frac{1}{n_t-1} \sum_{i=1}^{k}\bar x_i \times n_i \; \; \text{where} \; \; n_t = \sum_{i=1}^{k}n_i 
 $$
 
 The weighted standard deviations are calculated using the formula
@@ -136,7 +136,7 @@ $$
 # Two Methods
 In our first method, we started by removed the observations with missing standard deviations.   We then calculated the weighted mean ($\bar x_t$) and weighted standard deviations ($s_t$) without those observations.
 
-In our second method, we calculated the weighted mean using all observations for which we had both sample size and mean.  We then removed the 22 observations with no standard deviation, recalculated the total sample sizes ($n_t$), and calculated the standard deviation. In our opinion, this is a valid method for analysis and is preferred, as it includes as much information as is available.  Upper and lower bounds are then calculated for all conditions and metrics.
+In our second method, we calculated the weighted mean using all observations for which we had both sample size and mean.  We then removed the 22 observations with no standard deviation, recalculated the total sample sizes ($n_t$), and calculated the weighted standard deviation. In our opinion, this is a valid method for analysis and is preferred, as it includes as much information as is available.  Upper and lower bounds are then calculated for all conditions and metrics.
 
 # The Results
 
