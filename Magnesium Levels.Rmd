@@ -1,0 +1,150 @@
+---
+title: "Systematic Review of Magnesium Levels"
+author: "Sasha Haywood, Chen Zhou"
+date: "3/17/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include = F}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(knitr)
+iMg = read_csv("iMg_Results03Final.csv")
+iMg = iMg[,c(2, 5, 8, 10, 11, 13)] # 219 rows
+iMg = iMg[!is.na(iMg$grp1_base_mean),] # remove 1 rows without means
+iMg = iMg[!is.na(iMg$grp1_base_n),] # remove 4 rows without sample sizes
+iMg = unite(iMg, group, 2:3, remove = T)
+
+iMg = iMg[!is.na(iMg$sd_2),] # remove 9 rows without sd
+  
+# sort by groups of condition/measurement and calculate total n,
+# mean, and sd.  (q, qc, and var are steps to find sd)
+
+groups = iMg %>%
+  group_by(group) %>%
+  mutate(n = sum(grp1_base_n)) %>%
+  mutate(weighted.mean = grp1_base_mean * grp1_base_n / (n-1)) %>%
+  mutate(mean = sum(weighted.mean)) %>%
+  mutate(q = (grp1_base_n - 1) * sd_2^2 + grp1_base_n * grp1_base_mean^2) %>%
+  mutate(qc = sum(q)) %>%
+  mutate(var = (qc - n * mean^2) / (n-1)) %>%
+  mutate(sd = sqrt((qc - n * mean^2) / (n-1)))
+
+# report only those columns (condition/measurement, mean, and sd)
+report1 = groups[,c(2, 8, 12)]
+# We only need one entry for each condition/measurement
+m1 = unique(report1)
+
+######### alternate code 
+########## this code leaves in the lines that only have mean until overall mean has been calculated
+############ and then it removes those lines and recalculates n and calculates overall sd
+
+iMg = read_csv("iMg_Results03Final.csv")
+iMg = iMg[,c(2, 5, 8, 10, 11, 13)] # 219 rows
+iMg = iMg[!is.na(iMg$grp1_base_mean),] # remove 1 rows without means
+iMg = iMg[!is.na(iMg$grp1_base_n),] # remove 4 rows without sample sizes
+iMg = unite(iMg, group, 2:3, remove = T)
+
+groups = iMg %>%
+  group_by(group) %>%
+  mutate(n = sum(grp1_base_n)) %>%
+  mutate(weighted.mean = grp1_base_mean * grp1_base_n / (n-1)) %>%
+  mutate(mean = sum(weighted.mean))
+
+groups = groups[!is.na(groups$sd_2),] # remove 9 rows without sd
+
+groups = groups %>%
+  mutate(new_n = sum(grp1_base_n)) %>%
+  mutate(q = (grp1_base_n - 1) * sd_2^2 + grp1_base_n * grp1_base_mean^2) %>%
+  mutate(qc = sum(q)) %>%
+  mutate(var = (qc - new_n * mean^2) / (n-1)) %>%
+  mutate(sd = sqrt((qc - new_n * mean^2) / (n-1)))
+
+report2 = groups[,c(2, 8, 13)]
+
+m2 = unique(report2)
+
+# rows with NaN overall sd have only one observation, so overall sd is same as 
+# original sd.  Add those in manually.  If data is changed, this code 
+# may have to change
+
+m1[10,3] = 0.077
+m2[10,3] = 0.077
+
+m1 = m1[order(m1$group),] 
+m2 = m2[order(m2$group),] 
+
+# calculate lower and upper bounds
+m1 = m1 %>%
+  mutate(lower = mean - 1.96 * sd) %>%
+  mutate(upper = mean + 1.96 * sd)
+m2 = m2 %>%
+  mutate(lower = mean - 1.96 * sd) %>%
+  mutate(upper = mean + 1.96 * sd)
+
+# make it look pretty
+m1 = separate(m1, group, c("health condition", "metric"), sep = "_")
+m2 = separate(m2, group, c("health condition", "metric"), sep = "_")
+```
+
+# Introduction
+The end goal of this project is to determine a reference range for ionized magnesium and total magnesium concentrate in people with different health conditions.  The results from a number of studies have been compiled, and our initial objective is to combine the means and standard deviations from those seperate studies.  The initial collection of data includes studies of people with five different health conditions.
+
+ * diabetes 
+ * hypertension
+ * renal disease
+ * cardiovascular disease
+ * healthy
+
+For each health condition, there are two measurements.
+
+ * ionized magnesium 
+ * total magnesium concentration.
+
+# The Data
+The data set contains one observation for each study/group/condition/measurement combination.  Not all conditions are included in all studies.  For example, there are 23 study/group observations reporting ionized magnesium in people with cardiovascular disease, but only one reporting total magnesium in people with hypertension.  Studies range in size from samples of 6 to 1,652 people.  For each study, we should have sample size, mean, and standard deviation or standard error. The initial data set includes 219 observations. In the cases where the mean or sample size is missing, there is no way to include the observation in a weighted mean.  This includes 5 rows which must be excluded from all calculations.  There remain 9 observations with no standard deviation.  We have managed this discrepancy in two different ways, explained in the Methods section.
+
+# The Math
+The weighted means are calculated using the formula
+
+$$
+\bar x_t=\  \frac{1}{n_t-1} \sum_{i=1}^{k}\bar x_i \times n_i \; \; \text{where} \; \; n_t = \sum_{i=1}^{k}n_i 
+$$
+
+The weighted standard deviations are calculated using the formula
+
+$$
+s_t = \sqrt\frac{{\sum_{i=1}^{n}((n_i - 1) \times s_i^2 + n_i \times \bar x_i ^2) - n_i \times \bar x_t^2}}{n_t-1}
+$$
+
+# Two Methods
+In our first method, we started by removed the observations with missing standard deviations.   We then calculated the weighted mean ($\bar x_t$) and weighted standard deviations ($s_t$) without those observations.
+
+In our second method, we calculated the weighted mean using all observations for which we had both sample size and mean.  We then removed the 22 observations with no standard deviation, recalculated the total sample sizes ($n_t$), and calculated the weighted standard deviation. In our opinion, this is a valid method for analysis and is preferred, as it includes as much information as is available.  Upper and lower bounds are then calculated for all conditions and metrics.
+
+# The Results
+
+\begin{center}
+
+Method 1
+
+\end{center}
+
+```{r, echo = F}
+kable(m1, )
+```
+
+\begin{center}
+
+Method 2
+
+\end{center}
+
+```{r, echo = F}
+kable(m2, )
+``` 

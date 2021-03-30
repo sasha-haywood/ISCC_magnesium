@@ -1,0 +1,220 @@
+,Study_Number,study,year,Categories,groupdefpaper,Subgroups,outcome,unit,grp1_base_n,grp1_base_mean,grp1_base_sd,sd_2,grp1_base_se,grp1_base_LCI,grp1_base_UCI,Min,Max,Median,Agerange,Age_Low,Age_High,agemedian,White,Black,Asian,HispanicLatino,Others,Country,TotalSamplesize,InstrumentiMg,iMg_inst2,InstrumentSerumPlasmarbc,Male,BMI,BMISD,BMISE,bmirange,NOTES,AL,AM,AN,id,flag,calculated_LCI,calculated_UCI
+1,15,Altura,1994,CVD,"CHD,acute MI",NOVA,iMg,mM/L,6,0.52,0.046,0.046,0.020571825,,,,,,48-82,48,82,,,,,,,Berlin,30,"NOVA,KONE",NOVA,"AAS-Perkin-Elmer, Kodak Ektachem DT-60",50,,,,,,,,,11,0,-0.019748211,0.060891863
+,15,Altura,1994,CVD,"CHD,acute MI",KONE,iMg,mM/L,6,0.522,0.032,0.031843367,0.014310835,,,,,,48-82,48,82,,,,,,,Berlin,30,"NOVA,KONE",NOVA,"AAS-Perkin-Elmer, Kodak Ektachem DT-60",50,,,,,,,,,9,0,-0.013737886,0.042359557
+,15,Altura,1994,Healthy,Normal healthy,KONE,iMg,mM/L,12,0.58,0.03,0.031176915,0.00904534,,,,,,,,,,,,,,,Berlin,30,"NOVA,KONE","NOVA,KONE","AAS-Perkin-Elmer, Kodak Ektachem DT-60",,,,,,,,,,10,0,-0.008683201,0.026773881
+,15,Altura,1994,Healthy,Normal healthy,NOVA,iMg,mM/L,12,0.555,0.035,0.035,0.010552897,,,,,,,,,,,,,,,Berlin,30,"NOVA,KONE","NOVA,KONE","AAS-Perkin-Elmer, Kodak Ektachem DT-60",,,,,,,,,,13,0,-0.010130401,0.031236196
+,15,Altura,1994,CVD,"CHD,acute MI",NOVA,Total Mg,mM/L,6,0.833,0.06,0.058787754,0.026832816,,,,,,48-82,48,82,,,,,,,Berlin,30,"NOVA,KONE","NOVA,KONE","AAS-Perkin-Elmer, Kodak Ektachem DT-60",50,,,,,,,,,12,0,-0.025758537,0.079424165
+2,19,Altura,1994,Healthy,Matched control,,iMg,mM/L,40,0.6,,0.025298221,0.004,,,,,,,,,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,7,0,-0.003839856,0.011839856
+,19,Altura,1994,Healthy,Group A,,iMg,mM/L,6,0.56,,0.019595918,0.008,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,Study divided participants into 3 groups to be given various Mg salts,,,,1,0,-0.007679712,0.023679713
+,19,Altura,1994,Healthy,Group C,,iMg,mM/L,6,0.57,,0.034292856,0.014,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,5,0,-0.013439495,0.041439496
+,19,Altura,1994,Healthy,Group B,,iMg,mM/L,6,0.57,,0.046540305,0.019,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,3,0,-0.018239316,0.056239314
+,19,Altura,1994,Healthy,Matched control,,Total Mg,mM/L,40,0.84,,0.050596443,0.008,,,,,,,,,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,8,0,-0.007679712,0.023679713
+,19,Altura,1994,Healthy,Group B,,Total Mg,mM/L,6,0.88,,0.068585713,0.028,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,4,0,-0.02687899,0.082878992
+,19,Altura,1994,Healthy,Group A,,Total Mg,mM/L,6,0.89,,0.044090815,0.018,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,2,0,-0.017279353,0.053279351
+,19,Altura,1994,Healthy,Group C,,Total Mg,mM/L,6,0.9,,0.053888774,0.022,,,,,,18-38,18,38,,,,,,,,58,Nova Biochemical Stat Profile,NOVA,AAS,100,,,,,,,,,6,0,-0.021119207,0.065119207
+3,28,Aziz,1996,CVD,Cardiopulmonary bypass,,iMg,mM/L,15,0.535,0.065,0.067281392,0.017371981,,,,,,42-86,42,86,,,,,,,,30,AVL 988-4,AVL,.,73.33,,,,,,,,,14,0,-0.016676476,0.051420435
+4,30,Bahadori,2008,Healthy,,Male,iMg,mM/L,97,0.501,,0.029546573,0.003,,,,,,22-64,22,64,,,,,,,,233,Nova CCX,NOVA,,41.63,,,,,Used figure,,,,16,0,-0.002879892,0.008879892
+,30,Bahadori,2008,Healthy,,Female,iMg,mM/L,136,0.52,,0.034985711,0.003,,,,,,22-64,22,64,,,,,,,,233,Nova CCX,NOVA,,41.63,,,,,Used figure,,,,15,0,-0.002879892,0.008879892
+5,32,Barbagallo,2010,Diabetes,elderly diabetic,Mg supplement,Total Mg,mM/L,30,0.91,0.1,0.1,0.018569534,,,,,,,,,,,,,,,Italy,60,NOVA 8,NOVA,"ISE 900/1800, Roche",60,27.9,1.5,,,,,,,20,0,-0.017826082,0.054965153
+,32,Barbagallo,2010,Diabetes,elderly diabetic,Mg control,Total Mg,mM/L,30,0.915,0.1,0.1,0.018569534,,,,,,,,,,,,,,,Italy,60,NOVA 8,NOVA,"ISE 900/1800, Roche",60,27.9,1.5,,,,,,,18,0,-0.017826082,0.054965153
+,32,Barbagallo,2010,Diabetes,elderly diabetic,Mg supplement,iMg,mM/L,30,0.42,0.05,0.050854763,0.009284767,,,,,,,,,,,,,,,,,NOVA,NOVA,,56.67,28.1,1.6,,,,,,,19,0,-0.008913041,0.027482577
+,32,Barbagallo,2010,Diabetes,elderly diabetic,Control,iMg,mM/L,30,0.43,0.05,0.05,0.009284767,,,,,,,,,,,,,,,,,NOVA,NOVA,,56.67,28.1,1.6,,,,,,,17,0,-0.008913041,0.027482577
+6,33,Barbagallo,2014,Healthy,age-matched non-diabetic controls,Control,iMg,mM/L,100,0.55,0.05,0.050251891,0.005025189,,,,,,,,,,,,,,,Italy,205,NOVA 8,NOVA,"ISE 900/1800, Roche",42,28.4,0.9,,,,,,,21,0,-0.004824001,0.014874378
+,33,Barbagallo,2014,Healthy,age-matched non-diabetic controls,Control,Total Mg,mM/L,100,0.84,0.006,0.006030227,0.000603023,,,,,,,,,,,,,,,Italy,205,NOVA 8,NOVA,"ISE 900/1800, Roche",42,28.4,0.9,,,,,,,22,0,-0.00057888,0.001784925
+,33,Barbagallo,2014,Diabetes,older persons w diabetes,T2D,iMg,mM/L,105,0.49,0.05,0.05023981,0.004902903,,,,,,,,,,,,,,,,,NOVA,NOVA,,42.86,28.8,1,,,,,,,23,0,-0.00470661,0.014512418
+,33,Barbagallo,2014,Diabetes,older persons w diabetes,T2D,Total Mg,mM/L,105,0.82,0.007,0.007033573,0.000686406,,,,,,,,,,,,,,,,,NOVA,NOVA,,42.86,28.8,1,,,,,,,24,0,-0.000658926,0.002031738
+7,39,Bertschat,1995,CVD,Acute myocardial infarction,,iMg,mM/L,36,0.55,0.07,0.070992957,0.01183216,,,,,,40-88,40,88,,,,,,,Germany,42,KONE microlyte ,KONE,Aas,88.1,,,,,,,,,25,0,-0.011358446,0.035022765
+,39,Bertschat,1995,CVD,Acute myocardial infarction,,Total Mg,mM/L,36,0.79,0.1,0.101418511,0.016903085,,,,,,40-88,40,88,,,,,,,Germany,42,KONE microlyte ,KONE,Aas,88.1,,,,,,,,,26,0,-0.016226353,0.050032523
+8,55,Brookes,1993,CVD,Cardiopulmonary bypass,,iMg,mM/L,20,0.53,0.16,0.164156536,0.036706517,,,,,,,,,,,,,,,.,32,Dip cast ion selective electrodes,DIP CAST,?,,,,,,,,,,27,0,-0.035236932,0.108649969
+,55,Brookes,1993,Healthy,healthy volunteers,,iMg,mM/L,12,0.48,0.06,0.062667956,0.018090681,,,,,,,,,,,,,,,.,32,Dip cast ion selective electrodes,DIP CAST,?,,,,,,,,,,29,0,-0.017366402,0.053547762
+,55,Brookes,1993,CVD,Cardiopulmonary bypass,,Total Mg,mM/L,20,0.67,0.07,0.071818485,0.016059101,,,,,,,,,,,,,,,.,32,Dip cast ion selective electrodes,DIP CAST,?,,,,,,,,,,28,0,-0.015416159,0.047534361
+,55,Brookes,1993,Healthy,healthy volunteers,,Total Mg,mM/L,12,0.86,0.12,0.125335912,0.036181361,,,,,,,,,,,,,,,.,32,Dip cast ion selective electrodes,DIP CAST,?,,,,,,,,,,30,0,-0.034732804,0.107095525
+9,70,Corica,2006,Diabetes,Type 2 diabetic ,All,iMg,mM/L,290,0.44,0.08,0.080138289,0.004705882,,,,,,,,,,,,,,,Italy,290,NOVA 8,NOVA,.,51.7,29.1,4.6,,,,,,,31,0,-0.004517478,0.013929242
+10,71,Corsonello,2000,Diabetes,non-insulin dependent DM,micro-albuminuria,iMg,mM/L,30,0.36,0.05,0.050854763,0.009284767,,,,,,,,,,,,,,,,30,,NOVA,,40,28.1,5.1,,,,,,,34,0,-0.008913041,0.027482577
+,71,Corsonello,2000,Healthy,Healthy,Control,iMg,mM/L,20,0.58,0.05,0.051298918,0.011470787,,,,,,,,,,,,,,,Italy,(110)20,NOVA 8,NOVA,.,40,23.1,1.2,,,take out- part of disease study,,,,33,0,-0.011011543,0.033953115
+,71,Corsonello,2000,Diabetes,non-insulin dependent DM,clinical proteinuria,iMg,mM/L,30,0.35,0.04,0.04068381,0.007427814,,,,,,,,,,,,,,,,30,NOVA,NOVA,,43.33,28.5,4.5,,,,,,,32,0,-0.007130433,0.02198606
+,71,Corsonello,2000,Diabetes,non-insulin dependent DM,Normo-albuminuria,iMg,mM/L,30,0.45,0.02,0.020341905,0.003713907,,,,,,,,,,,,,,,,30,NOVA,NOVA,,50,28.2,3.1,,,,,,,35,0,-0.003565217,0.01099303
+11,78,Das,2005,Healthy,,,iMg,mM/L,20,0.53,0.01,0.010259784,0.002294157,,,,,,,,,,,,,,,India?,20,AAS,AAS,AAS,100,,,,,,,,,36,0,-0.002202308,0.006790623
+,78,Das,2005,Healthy,,,Total Mg,mM/L,20,0.89,0.01,0.010259784,0.002294157,,,,,,,,,,,,,,,India?,20,AAS,AAS,AAS,100,,,,,,,,,37,0,-0.002202308,0.006790623
+12,91,Dewitte,2002,Renal disease,chronic hemodialysis patients,,iMg,mM/L,49,0.621,0.07,0.070725408,0.01010363,,,,,,,,,,,,,,,Belgium,79,AVL,AVL,Chromatography reference method,53.06,,,,,,,,,38,0,-0.00969912,0.029906381
+,91,Dewitte,2002,Healthy,medical students,,iMg,mM/L,30,0.557,0.04,0.04068381,0.007427814,,,,,,22-23,22,23,,,,,,,Belgium,79,AVL,AVL,Chromatography reference method,,,,,,,,,,40,0,-0.007130433,0.02198606
+,91,Dewitte,2002,Renal disease,chronic hemodialysis patients,,Total Mg,mM/L,49,0.968,0.12,0.121243557,0.017320508,,,,,,,,,,,,,,,Belgium,79,AVL,AVL,Chromatography reference method,53.06,,,,,,,,,39,0,-0.016627064,0.051268078
+,91,Dewitte,2002,Healthy,medical students,,Total Mg,mM/L,30,0.86,0.08,0.08136762,0.014855627,,,,,,22-23,22,23,,,,,,,Belgium,79,AVL,AVL,Chromatography reference method,,,,,,,,,,41,0,-0.014260867,0.04397212
+13,104,Elming,2000,CVD,Acute myocardial infarction,,iMg,mM/L,217,0.46,0.07,0.07016185,0.004762897,,,,,,31-89,31,89,,,,,,,Denmark,287,NOVA 8,NOVA,.,71,,,,,,,,,44,0,-0.004572209,0.014098003
+14,97,Dimai,2000,Healthy,,iMg whole blood,iMg,mM/L,20,0.55,0.04,0.041039134,0.009176629,,,,,,27-36,27,36,,,,,,,Austria,20,AVL-988-4,AVL,Hitachi 717 spec,100,,,,,,,,,43,0,-0.008809233,0.027162492
+15,110,Ferrone,2019,Healthy,,Male,iMg,mM/L,1652,0.53,0.05,0.05001514,0.001230542,,,0.33,1.56,,18-68,18,68,,,,,,,"Rome, Italy",2259,NOVA 8,NOVA,.,73.13,24.9,3.4,,,,,,,46,0,-0.001181276,0.00364236
+16,110,Ferrone,2019,Healthy,,Female,iMg,mM/L,607,0.53,0.05,0.050041237,0.002031111,,,0.4,0.68,,18-64,18,64,,,,,,,"Rome, Italy",2259,NOVA 8,NOVA,.,73.13,24.9,3.4,,,,,,,45,0,-0.001949794,0.006012016
+,112,Fogh-Andersen,1996,Healthy,,,iMg,mM/L,26,0.606,0.027,0.027534705,0.0054,,,,,,19-59,19,59,,,,,,,"Copenhagen, Denmark",26,NOVA 8,NOVA,Ektachem DT-60,61.54,,,,,,,,,47,0,-0.005183805,0.015983805
+17,112,Fogh-Andersen,1996,Healthy,,,Total Mg,mM/L,26,0.904,0.033,0.033653529,0.0066,,,,,,19-59,19,59,,,,,,,"Copenhagen, Denmark",26,NOVA 8,NOVA,Ektachem DT-60,61.54,,,,,,,,,48,0,-0.006335762,0.019535763
+,126,Gow,2011,Healthy,,,iMg,mM/L,6,0.603,0.012,0.013145341,0.005366563,,,,,,28-43,28,43,,,,,,,"Edinburgh,Scotland",6,AVL-988-4,AVL,.,100,,,,,,,,,49,0,-0.005151707,0.015884833
+18,127,Greenway,1996,Healthy,,Female,iMg,mM/L,64,0.51,0.03,0.030237158,0.003779645,,,0.45,0.57,,20-57 ,20,57,,,,,,,"Ottawa, Canada",125,NOVA 8,NOVA,.,48.8,,,,,,,,,51,0,-0.003628323,0.011187612
+19,127,Greenway,1996,Healthy,,Male,iMg,mM/L,61,0.52,0.04,0.040331956,0.005163978,,,0.44,0.6,,21-57,21,57,,,,,,,"Ottawa, Canada",125,NOVA 8,NOVA,.,48.8,,,,,,,,,52,0,-0.004957233,0.015285188
+,134,Haenni,2001,Healthy,,hyperinsulinemic clamp test,iMg,mM/L,41,0.5,0.05,0.050621142,0.007905694,,,,,,,,,,,,,,,"Uppsala, Sweden",41,KONE microlyte ,KONE,,65.85,22.2,2.1,,,,,,,65,0,-0.007589182,0.023400569
+,165,Inoue,2004,CVD,elective cardiac surgery,,iMg,mM/L,8,0.52,0.1,0.1,0.037796447,,,,,,,,,,,,,,,Japan,8,NOVA 8,NOVA,"automatic chemical analyzer (7170; Hitachi, Tokyo, Japan),",87.5,,,,,,,,,78,0,-0.036283225,0.111876123
+20,134,Haenni,2001,Healthy,,sham clamp test,iMg,mM/L,10,0.5,0.03,0.031622777,0.01,,,,,,,,,,,,,,,"Uppsala, Sweden",41,KONE microlyte ,KONE,,65.85,22.2,2.1,,,,,,,66,0,-0.00959964,0.029599641
+,135,Haenni,2002,Healthy,venous plasma iMg,,iMg,mM/L,9,0.59,0.04,0.042426407,0.014142136,,,,,,21-29,21,29,,,,,,,"Uppsala, Sweden",9,KONE microlyte ,KONE,.,44.44,22.8,2.5,,,,,,,68,0,-0.013575941,0.041860212
+,135,Haenni,2002,Healthy,arterial plasma iMg,,iMg,mM/L,9,0.58,0.05,0.053033009,0.01767767,,,,,,21-29,21,29,,,,,,,"Uppsala, Sweden",9,KONE microlyte ,KONE,.,44.44,22.8,2.5,,,,,,,67,0,-0.016969925,0.052325267
+,158,Huijgen,1998,Renal disease,hemodialysis patients,,iMg,mM/L,23,0.71,0.12,,0.025584086,,,,,,26-85,26,85,60,,,,,,,104,Microlyte 6,KONE,AAS,69.57,,,,,plus minus 2 sd,,,,76,0,-0.0245598,0.075727977
+,158,Huijgen,1998,Renal disease,hemodialysis patients,,Total Mg,mM/L,23,1.12,0.25,,0.053300179,,,,,,26-85,26,85,60,,,,,,,104,Microlyte 6,KONE,AAS,69.57,,,,,,,,,77,0,-0.051166251,0.15776661
+,158,Huijgen,1998,Healthy,healthy volunteers,,Total Mg,mM/L,81,0.88,0.065,,0.007267221,,,,,,21-54,21,54,36,,,,,,,104,Microlyte 6,KONE,AAS,40,,,,,±2 SD,,,,75,0,-0.006976271,0.021510713
+,158,Huijgen,1998,Healthy,healthy volunteers,,iMg,mM/L,81,0.56,0.045,,0.005031153,,,,,,21-54,21,54,36,,,,,,,104,Microlyte 6,KONE,AAS,40,,,,,plus minus 2 sd,,,,74,0,-0.004829726,0.014892031
+,212,Laguardia,2006,CVD,,decomposed congestive heart failure 1-2 weeks,iMg,mM/L,25,0.46,,0.15,0.03,,,,,,31-59,31,59,,0,25,0,0,,USA,25,NOVA 8,NOVA,,77.78,,,,,,,,,89,0,-0.028798921,0.088798918
+,161,Huijgen,1996,Renal disease,continuous ambulatory peritoneal dialysis,,Total Mg,mM/L,44,1.24,0.18,0.182080994,0.027449743,,,,,,23-77,23,77,45,,,,,,,110,Microlyte 6,KONE,"AAS- PE2100, Perkin-Elmer",51.72,,,,,,,,,71,0,-0.026350765,0.08125025
+,161,Huijgen,1996,Healthy,healthy volunteers,,Total Mg,mM/L,116,0.88,0.06,0.060260305,0.005595029,,,,,,21-68,21,68,32,,,,,,,110,Microlyte 6,KONE,"AAS- PE2100, Perkin-Elmer",43.2,,,,,,,,,73,0,-0.005371026,0.016561083
+,212,Laguardia,2006,CVD,,decomposed congestive heart failure 4 wks or more,iMg,mM/L,25,0.47,,0.1,0.02,,,,,,38-79,38,79,,0,25,0,0,,USA,25,NOVA 8,NOVA,.,45.45,,,,,,,,,90,0,-0.01919928,0.059199281
+,165,Inoue,2004,CVD,elective cardiac surgery,,Total Mg,mM/L,8,0.88,0.13,0.13,0.049135381,,,,,,,,,,,,,,,Japan,8,NOVA 8,NOVA,"automatic chemical analyzer (7170; Hitachi, Tokyo, Japan),",87.5,,,,,,,,,79,0,-0.047168195,0.145438954
+21,161,Huijgen,1996,Renal disease,continuous ambulatory peritoneal dialysis,,iMg,mM/L,44,0.76,0.08,0.080924886,0.012199886,,,,,,23-77,23,77,45,,,,,,,110,Microlyte 6,KONE,"AAS- PE2100, Perkin-Elmer",51.72,,,,,,,,,70,0,-0.011711451,0.036111221
+,219,Lorenz,2018,Renal disease,hemodialysis patients,,iMg,mM/L,78,0.5,0.1,0.100647256,0.011396058,,,,,,57.2-80.3,57.2,80.3,75.1,75,3,,,,Germany,78,NOVA 8,NOVA,.,53,26.2,5.1,,,,,,,91,0,-0.010939805,0.033731919
+X,169,Jeremias,2000,CVD,,No MACE,Total Mg,mM/L,21,0.78,0.1,0.102469508,0.02236068,,,,,,,,,,,,,,,,,KONE microlyte ,KONE,AAS,,,,,,,,,,82,0,-0.021465447,0.066186808
+,169,Jeremias,2000,CVD,,MACE,Total Mg,mM/L,12,0.8,0.11,0.114891253,0.033166248,,,,,,,,,,,,,,,,,KONE microlyte ,KONE,AAS,,,,,,,,,,81,0,-0.031838402,0.098170899
+,233,Markell,1993,Renal disease,renal transplant patients,,iMg,mM/L,39,0.54,0.01,0.010130725,0.001622214,,,,,,20-63,20,63,,9,19,2,9,,USA,99,NOVA 8,NOVA,Kodak DT-60 Ektachem,56.41,,,,,,,,,92,0,-0.001557267,0.004801696
+X,161,Huijgen,1996,Healthy,healthy volunteers,,iMg,mM/L,116,0.56,0.05,0.050216921,0.004662524,,,,,,21-68,21,68,32,,,,,,,110,Microlyte 6,KONE,"AAS- PE2100, Perkin-Elmer",43.2,,,,,,,,,72,0,-0.004475855,0.013800903
+,234,Markell,1993,Renal disease,renal transplant patients,,iMg,mM/L,27,0.5,0.02,0.020380987,0.003922323,,,,,,,,,,4,5,2,5,,,61,NOVA 8,NOVA,Kodak DT-60 Ektachem,51.85,,,,,age reported for renal group but categorized into two,,,,96,0,-0.003765289,0.011609934
+,235,Markell,1993,Renal disease,peritoneal dialysis,,iMg,mM/L,10,0.5,0.04,0.042163702,0.013333333,,,,,,,,,,5,4,,1,0,,102,NOVA 8,NOVA,,40,,,,,,,,,102,0,-0.012799519,0.039466187
+,211,Kyriacou,2008,CVD,AMI,non-ami,Total Mg,mM/L,90,0.76,0.02,0.020112046,0.002119996,,,,,,,,,,,,,,,Australia,162,AVL 988-4,AVL,Vitros 700,62.2,,,,,,,,,88,0,-0.00203512,0.006275111
+X,169,Jeremias,2000,CVD,*major adverse cardiac events,No MACE,iMg,mM/L,21,0.55,0.06,0.061481705,0.013416408,,,,,,,,,,,,,,,"Berlin,Germany",33,KONE microlyte ,KONE,"AAS IL 251, Thermo Instrument",78.26,,,,,age categories were a bit diff,,,,83,0,-0.012879268,0.039712083
+,169,Jeremias,2000,CVD,,MACE,iMg,mM/L,12,0.51,0.07,0.073112616,0.021105794,,,,,,,,,,,,,,,,,KONE microlyte ,KONE,AAS,100,,,,,,,,,80,0,-0.020260802,0.062472392
+,201,Kozielec,2005,Healthy,controls,,iMg,mM/L,273,0.633,0.075,0.075137741,0.004547543,,,0.48,0.89,,,,,,,,,,,Poland,437,AVL 988-4,AVL,,,,,,,,,,,84,0,-0.004365478,0.013460563
+,261,Mikhail,1999,Diabetes,Diabetics,All,iMg,mM/L,23,0.536,0.05,0.051123736,0.010660036,,,,,,33-79,33,79,,24,7,1,,,,,NOVA,NOVA,,,,,,,,,,,112,0,-0.01023325,0.031553321
+X,233,Markell,1993,Renal disease,renal transplant patients,,Total Mg,mM/L,39,0.79,0.02,0.020261449,0.003244428,,,,,,20-63,20,63,,9,19,2,9,,USA,99,NOVA 8,NOVA,Kodak DT-60 Ektachem,56.41,,,,,,,,,93,0,-0.003114535,0.009603391
+,234,Markell,1993,Healthy,age-sex-matched controls,,iMg,mM/L,34,0.61,0.06,0.060902306,0.010444659,,,,,,,,,,,,,,,,61,NOVA 8,NOVA,Kodak DT-60 Ektachem,,,,,,,,,,94,0,-0.010026497,0.030915815
+X,235,Markell,1993,Healthy,age-matched controls,,iMg,mM/L,66,0.6,0.004,0.004030652,0.000496139,,,,,,,,,,,,,,,,102,NOVA 8,NOVA,,,,,,,,,,,98,0,-0.000476276,0.001468553
+,234,Markell,1993,Renal disease,renal transplant patients,,Total Mg,mM/L,27,0.78,0.02,0.020380987,0.003922323,,,,,,,,,,4,5,2,5,,,61,NOVA 8,NOVA,Kodak DT-60 Ektachem,51.85,,,,,,,,,97,0,-0.003765289,0.011609934
+,234,Markell,1993,Healthy,age-sex-matched controls,,Total Mg,mM/L,34,0.84,0.017,0.017255653,0.00295932,,,,,,,,,,,,,,,,61,NOVA 8,NOVA,Kodak DT-60 Ektachem,,,,,,,,,,95,0,-0.002840841,0.008759481
+,241,Matthiesen,2002,Healthy,,capillary blood,iMg,mM/L,32,0.55,0.04,0.040640041,0.007184212,,,,,,25-63,25,63,,,,,,,Denmark,32,NOVA 8,NOVA,.,37.5,,,,,,,,,104,0,-0.006896585,0.021265009
+X,241,Matthiesen,2002,Healthy,,venousblood,iMg,mM/L,32,0.57,0.04,0.040640041,0.007184212,,,,,,25-63,25,63,,,,,,,Denmark,32,NOVA 8,NOVA,.,37.5,,,,,,,,,105,0,-0.006896585,0.021265009
+,235,Markell,1993,Healthy,age-matched controls,,Total Mg,mM/L,66,0.84,0.008,0.008061304,0.000992278,,,,,,,,,,,,,,,,102,NOVA 8,NOVA,,,,,,,,,,,99,0,-0.000952551,0.002937107
+,235,Markell,1993,Renal disease,peritoneal dialysis,,Total Mg,mM/L,10,0.85,0.05,0.052704628,0.016666667,,,,,,,,,,5,4,,1,0,,102,NOVA 8,NOVA,,40,,,,,,,,,103,0,-0.015999399,0.049332734
+X,235,Markell,1993,Renal disease,hemodialysis patients,,Total Mg,mM/L,26,0.99,0.04,0.040792156,0.008,,,,,,,,,,4,17,,4,1,,102,NOVA 8,NOVA,,42.31,,,,,,,,,101,0,-0.007679712,0.023679713
+,257,Mercan,1997,Healthy,donors undergoing plateletpheresis,,iMg,mM/L,15,0.54,0.04,0.041403934,0.01069045,,,,,,,,,,,,,,,Belgium,15,NOVA 8 CRT,NOVA,Colorimetric ,,,,,,,,,,110,0,-0.010262446,0.031643346
+X,273,Moustafa,2016,Diabetes,Type 2 diabetes,,iMg,mM/L,60,0.56,0.25,0.252109742,0.032547228,,,,,,,,,,,,,,,Iraq,90,calc. with eqn,EQN,Calamite method,0,27.36,3.84,,,,,,,122,0,-0.031244166,0.096338622
+,268,Mooren,2005,Healthy,,,iMg,mM/L,20,0.59,0.01,0.010259784,0.002294157,,,,,,21-30,21,30,,,,,,,Germany,20,AVL-988-4,AVL,Photometric,100,23,,2,,,,,,116,0,-0.002202308,0.006790623
+X,271,Moser,2016,Healthy,,High,iMg,mM/L,12,0.52899999,,0.03186977,0.00920001,,,,,,,,,,,,,,,Austria,22,Phox-M analyzer (NOVA),NOVA,,100,,,,,,,,,118,0,-0.008831678,0.027231699
+X,257,Mercan,1997,Healthy,donors undergoing plateletpheresis,,Total Mg,mM/L,15,0.87,0.06,0.0621059,0.016035675,,,,,,,,,,,,,,,Belgium,15,NOVA 8 CRT,NOVA,Colorimetric ,,,,,,,,,,111,0,-0.015393671,0.047465019
+,271,Moser,2016,Healthy,,Low,iMg,mM/L,10,0.488,,0.039212243,0.0124,,,,,,,,,,,,,,,Austria,22,Phox-M analyzer (NOVA),NOVA,,100,,,,,,,,,119,0,-0.011903553,0.036703553
+X,273,Mikhail,1999,Healthy,matched control subjects,All,iMg,mM/L,23,0.48,0.078,0.079753028,0.016629656,,,,,,,,,,,,,,,,,NOVA,NOVA,BECKHAM CX 7,,,,,,,,,,114,0,-0.015963869,0.049223185
+,261,Mikhail,1999,Diabetes,Diabetics,All,Total Mg,mM/L,20,0.844,0.076,0.077974355,0.017435596,,,,,,33-79,33,79,,24,7,1,,,,,NOVA,NOVA,BECKHAM CX 7,,,,,,,,,,113,0,-0.016737545,0.051608734
+,261,Mikhail,1999,Healthy,matched control subjects,All,Total Mg,mM/L,20,0.864,0.075,0.076948376,0.01720618,,,,,,,,,,,,,,,,,NOVA,NOVA,BECKHAM CX 7,,,,,,,,,,115,0,-0.016517313,0.050929673
+,273,Moustafa,2016,Healthy,controls,,iMg,mM/L,30,0.62,0.11,0.111880478,0.020426487,,,,,,,,,,,,,,,Iraq,90,calc. with eqn,EQN,Calamite method,0,26.74,3.04,,,,,,,120,0,-0.019608691,0.060461666
+X,268,Mooren,2005,Healthy,,,Total Mg,mM/L,20,0.94,0.01,0.010259784,0.002294157,,,,,,21-30,21,30,,,,,,,Germany,20,AVL-988-4,AVL,Photometric,100,23,,2,,,,,,117,0,-0.002202308,0.006790623
+,275,Muneyyirci-Delale,1999,Healthy,,ovulatory,iMg,mM/L,25,0.53,0.04,0.040824829,0.008164966,,,,,,24-35,24,35,,16,6,3,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,100,25.3,4,,,,,,,129,0,-0.007838073,0.024168005
+,276,Muneyyirci-Delale,1999,Healthy,,follicular,iMg,mM/L,25,0.55,0.04,0.040824829,0.008164966,,,,,,42-65,42,65,,,,,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,0,29.04,4.198,,20-36,,,,,126,0,-0.007838073,0.024168005
+,298,Pinard,2003,CVD,elective cardiac surgery,A,iMg,mM/L,10,0.48,0.04,0.042163702,0.013333333,,,,,,,,,,,,,,,.,20,NOVA STAT Profile Ultra C analyzer,NOVA,,70,,,,,,,,,136,0,-0.012799519,0.039466187
+,298,Pinard,2003,CVD,elective cardiac surgery,B,iMg,mM/L,10,0.49,0.04,0.042163702,0.013333333,,,,,,,,,,,,,,,.,20,NOVA STAT Profile Ultra C analyzer,NOVA,,70,,,,,,,,,137,0,-0.012799519,0.039466187
+,273,Moustafa,2016,Healthy,controls,,Total Mg,mM/L,30,0.89,0.17,0.172906193,0.031568207,,,,,,,,,,,,,,,Iraq,90,calc. with eqn,EQN,Calamite method,0,26.74,3.04,,,,,,,121,0,-0.030304343,0.093440756
+X,273,Moustafa,2016,Diabetes,Type 2 diabetes,,Total Mg,mM/L,60,0.79,0.23,0.231940963,0.02994345,,,,,,,,,,,,,,,Iraq,90,calc. with eqn,EQN,Calamite method,0,27.36,3.84,,,,,,,123,0,-0.028744632,0.088631533
+,276,Muneyyirci-Delale,1999,Healthy,,menopausal,iMg,mM/L,25,0.56,0.04,0.040824829,0.008164966,,,,,,42-65,42,65,,,,,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,0,29.04,4.198,,20-36,,,,,127,0,-0.007838073,0.024168005
+X,275,Muneyyirci-Delale,1999,Healthy,,,Total Mg,mM/L,25,0.8,0.08,0.081649658,0.016329932,,,,,,24-35,24,35,,16,6,3,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,100,25.3,4,,,,,,,124,0,-0.015676146,0.04833601
+,275,Muneyyirci-Delale,1999,Healthy,,follicular,Total Mg,mM/L,25,0.83,0.07,0.071443451,0.01428869,,,,,,24-35,24,35,,16,6,3,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,100,25.3,4,,,,,,,125,0,-0.013716628,0.042294007
+X,284,Niemela,1997,Healthy,,All,iMg,mM/L,50,0.509,0.037,0.037375644,0.005285714,,,,,,,,,,28,14,,,8,USA,50,AVL-988-4,AVL,Hitachi 736,50,,,,,,,,,131,0,-0.005074095,0.015645524
+,289,Opresnik,2019,Healthy,Harmonica players,,iMg,mM/L,47,0.539,0.01,0.010108111,0.00147442,,,,,,,,,,,,,,,Austria,47,Phox M,NOVA,,,,,,,,,,,133,0,-0.00141539,0.004364229
+,276,Muneyyirci-Delale,1999,Healthy,,ovulatory,Total Mg,mM/L,25,0.8,0.07,0.071443451,0.01428869,,,,,,42-65,42,65,,,,,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,0,29.04,4.198,,20-36,,,,,130,0,-0.013716628,0.042294007
+,276,Muneyyirci-Delale,1999,Healthy,,menopausal,Total Mg,mM/L,25,0.83,0.08,0.081649658,0.016329932,,,,,,42-65,42,65,,,,,,,USA,25,NOVA 8,NOVA,Kodak DT 60 colorimetric,0,29.04,4.198,,20-36,,,,,128,0,-0.015676146,0.04833601
+X,293,Pamminger,2014,Healthy,,production workers,iMg,mM/L,19,0.49647058,0.02343639,0.024776679,0.00552401,,,,,,,,,,,,,,,Austria,37,Phox-M analyzer (NOVA),NOVA,.,,,,,,,,,,135,0,-0.005302851,0.016350871
+,284,Niemela,1997,Healthy,,All,Total Mg,mM/L,50,0.801,0.049,0.049497475,0.007,,,,,,,,,,28,14,,,8,USA,50,AVL-988-4,AVL,Hitachi 736,50,,,,,,,,,132,0,-0.006719748,0.020719748
+X,307,Porta,2010,Diabetes,Type 2 diabetes,,iMg,mM/L,72,0.465,,0.042426407,0.005,,,,,,,,,,,,,,,Austria,72,CCX NOVA,NOVA,.,,,,,,see figures,,,,138,0,-0.00479982,0.01479982
+,293,Pamminger,2014,Healthy,,office workers,iMg,mM/L,18,0.479,0.051,0.051,0.012369317,,,,,,,,,,,,,,,Austria,37,Phox-M analyzer (NOVA),NOVA,.,,,,,,,,,,134,0,-0.011874098,0.036612734
+X,300,Porta,2019,Healthy,,,iMg,mM/L,37,0.52433,0.02542,0.025770637,0.004236667,,,,,,,,,,,,,,,Austria,30,Phox-M analyzer (NOVA),NOVA,.,,,,,,,,,,147,0,-0.004067047,0.01254038
+,301,Porta,2012,Healthy,participants in a trial run,,iMg,mM/L,18,0.4916,0.02,0.02,0.004850713,,,,,,,,,,,,,,,Austria,18,Phox-M analyzer (NOVA),NOVA,.,100,,,,,figure needs to be checked,,,,139,0,-0.004656509,0.014357935
+,302,Porta,2013,Healthy,,,iMg,mM/L,18,0.531,0.023,0.042426407,0.005578319,,,,,,,,,,,,,,,Austria,15,CCX NOVA,NOVA,.,100,,,,,,,,,140,0,-0.005354986,0.016511625
+,305,Porta,2017,Healthy,officer trainees,,iMg,mM/L,12,0.518,0.01,0.010444659,0.003015113,,,,,,,,,,,,,,,Czech Republic,12,NOVA Phox M,NOVA,.,,,,,,,,,,143,0,-0.0028944,0.008924628
+X,308,Porta,2020,Healthy,chess tournament participants,Losers,iMg,mM/L,23,0.472,,0.028774989,0.006,,,,,,,,,,,,,,,Austria,23,Phox-M,NOVA,,,,,,,,,,,150,0,-0.005759784,0.017759783
+,308,Porta,2020,Healthy,chess tournament participants,Winners,iMg,mM/L,23,0.492,,0.028774989,0.006,,,,,,,,,,,,,,,Austria,23,Phox-M,NOVA,,,,,,,can't find sample for each group.  Total was 23,,,,151,0,-0.005759784,0.017759783
+,310,Porta,2019,Healthy,,,iMg,mM/L,20,0.58,0.023,0.02236068,0.005276562,,,,,,20-24,20,24,,,,,,,Austria,20,Phox-M analyzer (NOVA),NOVA,.,100,,,,,,,,,148,0,-0.005065309,0.015618433
+X,328,Ragazzo,2012,Hypertension,primary(essential) hypertension,,iMg,mM/L,74,0.81,0.04,0.040273041,0.004681646,,,,,,,,,,,,,,,,,,NA,,,,,,,,,,,153,0,-0.004494212,0.013857503
+,328,Ragazzo,2012,Hypertension,aldosterone-producing adenoma,APA,iMg,mM/L,46,0.83,0.05,0.050552503,0.00745356,,,,,,,,,,,,,,,Italy,132,,NA,,,,,,,,,,,154,0,-0.007155149,0.022062268
+,328,Ragazzo,2012,Hypertension,bilateral adrenal hyperplasia,,iMg,mM/L,12,0.83,0.04,0.041778637,0.012060454,,,,,,,,,,,,,,,,,,NA,,,,,,,,,,,152,0,-0.011577601,0.035698511
+,337,Resnick,1993,Diabetes,T2D,T2D,iMg,mM/L,22,0.552,,0.037523326,0.008,,,,,,,,,,52,0,0,0,0,USA,52,magnesium ion-selective electrode,ISE,standard autoanalyzer techniques,36.36,,,,,,,,,157,0,-0.007679712,0.023679713
+X,311,Porta,2016,Healthy,,,iMg,mM/L,15,0.44357142,0.06020569,0.060205681,0.016090647,,,,,,,,,,,,,,,Austria,15,Phox-M analyzer (NOVA),NOVA,.,,,,,,,,,,142,0,-0.015446441,0.04762774
+,312,Porta,2017,Healthy,officer trainees,controls,iMg,mM/L,16,0.526875,0.02182316,0.02182316,0.005634716,,,,,,20-24,20,24,,,,,,,Austria,20,"Phox-M device of TECOM corporation (Wiener Neudorf, Austria)",NOVA,.,100,,,,,,,,,145,0,-0.005409124,0.016678555
+X,338,Resnick,1997,Hypertension,hypertension,All,iMg,mM/L,23,0.571,,0.057549978,0.012,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,,,,,159,0,-0.011519568,0.035519566
+X,312,Porta,2017,Healthy,officer trainees,treatment,iMg,mM/L,16,0.53466665,0.02294922,0.02294922,0.005925463,,,,,,20-24,20,24,,,,,,,Austria,20,"Phox-M device of TECOM corporation (Wiener Neudorf, Austria)",NOVA,.,100,,,,,,,,,146,0,-0.005688231,0.017539157
+,316,Porta,2017,Healthy,officer trainees,,iMg,mM/L,17,0.54583,0.02151,0.02148138,0.0053775,,,,,,20-24,20,24,,,,,,,Austria,17,Phox M,NOVA,,100,,,,,,,,,144,0,-0.005162206,0.015917206
+X,317,Porta,2015,Healthy,,,iMg,mM/L,33,0.48,0.01,0.01,0.001767767,,,,,,,,,,,,,,,Austria,33,Phox-M analyzer (NOVA),NOVA,.,,,,,,Used figure,,,,141,0,-0.001696993,0.005232526
+X,235,Markell,1993,Renal disease,hemodialysis patients,,iMg,mM/L,26,0.55,0.02,0.020396078,0.004,,,,,,,,,,4,17,,4,1,,102,NOVA 8,NOVA,,42.31,,,,,,,,,100,0,-0.003839856,0.011839856
+X,359,Saha,1996,Renal disease,dialysis patients,,iMg,mM/L,47,0.68,0.11,0.111189224,0.016218615,,,,,,27-78,27,78,,,,,,,,47,Microlyte 6,KONE,Ektachem 700 Analyzer (Johnson & Johnson),53.19,,,,,,,,,170,0,-0.015569285,0.048006516
+X,361,Saha,1998,Renal disease,transplant recipients on cyclosporine,,iMg,mM/L,27,0.53,0.05,0.050952467,0.009805807,,,,,,22-85,22,85,51,,,,,,Finland,144,Microlyte 6,KONE,.,55.07,,,,,,,,,178,0,-0.009413221,0.029024836
+X,361,Saha,1998,Renal disease,chronic renal disease,,iMg,mM/L,42,0.57,0.05,0.050606083,0.007808688,,,,,,22-85,22,85,51,,,,,,Finland,144,KONE microlyte ,KONE,,55.07,,,,,,,,,174,0,-0.007496059,0.023113435
+X,337,Resnick,1993,Healthy,non-diabetic Control,Control,Total Mg,mM/L,30,0.86,,0.054772256,0.01,,,,,,,,,,,,,,,,,Magnesium ion-selective electrode,ISE,,43.33,,,,,,,,,156,0,-0.00959964,0.029599641
+X,337,Resnick,1993,Diabetes,T2D,T2D,Total Mg,mM/L,22,0.81,,0.234520788,0.05,,,,,,,,,,52,0,0,0,0,USA,52,magnesium ion-selective electrode,ISE,standard autoanalyzer techniques,36.36,,,,,,,,,158,0,-0.047998197,0.147998199
+X,361,Saha,1998,Healthy,Healthy Control,,iMg,mM/L,75,0.56,0.05,0.050336704,0.005812382,,,,,,19-78,19,78,52,,,,,,Finland,144,KONE microlyte ,KONE,,40,,,,,,,,,176,0,-0.005579677,0.017204441
+,363,Sakaguchi,2018,Renal disease,stable patients who visited dept of nephrology patients not on dialysis,,iMg,mM/L,112,0.54,0.07,0.070314608,0.006644106,,,,,,,,,,,,,,,Japan,,pHOx Ultra NOVA,NOVA,,68,23.2,4,,,,,,,182,0,-0.006378103,0.019666314
+X,338,Resnick,1997,Hypertension,Black hypertensive,Black hypertensive,Total Mg,mM/L,,0.781,,0,0.016,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,,,,,161,0,-0.015359423,0.047359426
+X,338,Resnick,1997,Hypertension,White hypertensive,White hypertensive,Total Mg,mM/L,,0.809,,0,0.027,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,,,,,163,0,-0.025919028,0.079919025
+X,338,Resnick,1997,Healthy,Black normotensive,Black normotensive,Total Mg,mM/L,27,0.818,,0,0.012,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,,,,,162,0,-0.011519568,0.035519566
+,338,Resnick,1997,Healthy,White normotensive,White normotensive,Total Mg,mM/L,34,0.878,,0,0.007,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,n for race not given,,,,164,0,-0.006719748,0.020719748
+X,337,Resnick,1993,Healthy,non-diabetic Control,Control,iMg,mM/L,30,0.63,,0.043817805,0.008,,,,,,,,,,,,,,,,,magnesium ion-selective electrode,ISE,,43.33,,,,,,,,,155,0,-0.007679712,0.023679713
+X,367,Sasaki,2000,CVD,cvd,arrhythmia,iMg,mM/L,60,0.52,0.048,0.04840507,0.006249068,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),60,,,,,,,,,186,0,-0.00599888,0.018497016
+X,349,Rooney,2020,Healthy,Generally healthy,Placebo,Total Mg,mM/L,30,0.85,0.05,0.050854763,0.009284767,,,,,0.86,,,,,51,,,,non-white-3,USA,59,phox Ultra blood gas analyzer (NOVA Biomedical,NOVA,colorimetric assay on the Roche cobas c501 analyzer,40,28,4.5,,,,,,,168,0,-0.008913041,0.027482577
+X,349,Rooney,2020,Healthy,Generally healthy,Mg,Total Mg,mM/L,24,0.86,0.06,0.06129047,0.012510865,,,,,0.86,,,,,51,,,,non-white-3,USA,59,phox Ultra blood gas analyzer (NOVA Biomedical,NOVA,colorimetric assay on the Roche cobas c501 analyzer,13.79,27.7,4.9,,,,,,,166,0,-0.012009979,0.03703171
+,367,Sasaki,2000,CVD,cvd,Ischaemic heart disease,iMg,mM/L,80,0.542,0.042,0.042264987,0.004725369,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),70,,,,,,,,,192,0,-0.004536184,0.013986923
+,367,Sasaki,2000,Hypertension,hypertension,hypertension,iMg,mM/L,194,0.533,0.042,0.042108668,0.003023226,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),48.96,,,,,,,,,190,0,-0.002902188,0.00894864
+X,359,Saha,1996,Renal disease,dialysis patients,,Total Mg,mM/L,47,1,0.19,0.192054114,0.028013972,,,,,,27-78,27,78,,,,,,,,47,Microlyte 6,KONE,Ektachem 700 Analyzer (Johnson & Johnson),53.19,,,,,,,,,171,0,-0.026892403,0.08292035
+,367,Sasaki,2000,Diabetes,diabetes,diabetes mellitus,iMg,mM/L,36,0.517,0.049,0.04969507,0.008282512,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),61.76,,,,,,,,,188,0,-0.007950913,0.024515936
+,376,Shibata,1999,CVD,Patients acute MI,magnesium,iMg,mM/L,18,0.39,0.08,0.082319321,0.01940285,,,,,,40-76,40,76,,,,,,,Japan,38,NOVA 8,NOVA,.,94.44,,,,,,,,,194,0,-0.018626036,0.057431739
+,376,Shibata,1999,CVD,Patients acute MI,placebo,iMg,mM/L,18,0.4,0.05,0.051449576,0.012126781,,,,,,40-76,40,76,,,,,,,Japan,38,NOVA 8,NOVA,.,88.89,,,,,used figure,,,,195,0,-0.011641273,0.035894837
+X,361,Saha,1998,Healthy,Healthy Control,,Total Mg,mM/L,75,0.81,0.07,0.070471386,0.008137335,,,,,,19-78,19,78,52,,,,,,Finland,144,KONE microlyte ,KONE,,40,,,,,,,,,177,0,-0.007811548,0.024086218
+,361,Saha,1998,Renal disease,transplant recipients on cyclosporine,,Total Mg,mM/L,27,0.71,0.1,0.101904933,0.019611614,,,,,,22-85,22,85,51,,,,,,Finland,144,KONE microlyte ,KONE,,55.07,,,,,,,,,179,0,-0.018826442,0.058049671
+,361,Saha,1998,Renal disease,chronic renal disease,,Total Mg,mM/L,42,0.8,0.11,0.111333382,0.017179114,,,,,,22-85,22,85,51,,,,,,Finland,144,KONE microlyte ,KONE,,55.07,,,,,,,,,175,0,-0.016491331,0.050849557
+,338,Resnick,1997,Healthy,normotensive,All,iMg,mM/L,61,0.601,,0.039051248,0.005,,,,,,,,,,,,0,0,,USA,94,magnesium ion-selective electrode,ISE,Standard automated techniques,,,,,,,,,,160,0,-0.00479982,0.01479982
+,362,Saha,1997,Renal disease,continuous ambulatory peritoneal dialysis,,Total Mg,mM/L,26,1.11,0.22,0.224356859,0.044,,,0.74,1.52,,21-81,21,81,,,,,,,Finland,52,Microlyte 6,KONE,Ektachem 700 Analyzer (Johnson & Johnson Clinical Diagnostics),46.15,,,,,,,,,173,0,-0.042238414,0.130238414
+,349,Rooney,2020,Healthy,Generally healthy,Placebo,iMg,mM/L,27,0.55,0.04,0.040761973,0.007844645,,,,,0.54,,,,,51,,,,non-white-3,USA,59,phox Ultra blood gas analyzer (NOVA Biomedical,NOVA,colorimetric assay on the Roche cobas c501 analyzer,40,28,4.5,,,,,,,167,0,-0.007530577,0.023219869
+X,363,Sakaguchi,2018,Renal disease,stable patients who visited dept of nephrology patients not on dialysis,,Total Mg,mM/L,112,0.864019749,0.123431393,0.123986143,0.011715589,,,,,,,,,,,,,,,Japan,,pHOx Ultra NOVA,NOVA,,68,23.2,4,,,,,,,183,0,-0.011246544,0.034677722
+,363,Sakaguchi,2018,Renal disease,hemodialysis patients,,Total Mg,mM/L,118,1.069738737,0.16457519,0.16457519,0.015214982,,,,,,,,,,,,,,,Japan,230,pHOx Ultra NOVA,NOVA,.,59,22.7,4,,,,,,,181,0,-0.014605835,0.045035798
+,349,Rooney,2020,Healthy,Generally healthy,Mg,iMg,mM/L,22,0.56,0.06,0.061411958,0.013093073,,,,,0.56,,,,,51,,,,non-white-3,USA,59,phox Ultra blood gas analyzer (NOVA Biomedical,NOVA,colorimetric assay on the Roche cobas c501 analyzer,13.79,27.7,4.9,,,,,,,165,0,-0.012568879,0.038755026
+,357,Rylander,2001,Healthy,Healthy persons,Non-consumer,iMg,mM/L,10,0.56,0.04,0.042163702,0.013333333,,,,,,35-65,35,65,,,,,,,Switzerland,24,"AVL 9120, AVL 988-4",AVL,COBAS-MIRA,100,24.6,3.1,,,,,,,169,0,-0.012799519,0.039466187
+X,362,Saha,1997,Renal disease,CAPD,,iMg,mM/L,26,0.73,0.11,0.112178429,0.022,,,0.56,0.95,,21-81,21,81,,,,,,,Finland,52,Microlyte 6,KONE,Ektachem 700 Analyzer (Johnson & Johnson Clinical Diagnostics),46.15,,,,,,,,,172,0,-0.021119207,0.065119207
+X,367,Sasaki,2000,Healthy,Healthy Control,All,iMg,mM/L,56,0.538,0.042,0.042380098,0.005663279,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),53.57,,,,,,,,,184,0,-0.005436543,0.016763102
+X,408,Ueshima,2004,CVD,Acute myocardial infarction,All,iMg,mM/L,84,0.52,0.06,0.060360364,0.006585856,,,,,,,,,,,,,,,Japan,84,NOVA 8,NOVA,.,80.95,,,,,,,,,207,0,-0.006322184,0.019493895
+X,415,Wahr,2000,CVD,cardiac surgery,,iMg,mM/L,51,0.53,0.01,0.010099505,0.001414214,,,,,,40-77,40,77,,49,,,,2,,102,NOVA,NOVA,,76.47,,,,,,,,,208,0,-0.001357594,0.004186021
+,367,Sasaki,2000,CVD,cvd,arrhythmia,Total Mg,mM/L,60,0.923,0.085,0.085717312,0.011066057,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),60,,,,,,,,,187,0,-0.010623016,0.032755133
+,367,Sasaki,2000,Diabetes,diabetes,diabetes mellitus,Total Mg,mM/L,36,0.913,0.084,0.084,0.014198591,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),61.76,,,,,,,,,189,0,-0.013630136,0.042027321
+,367,Sasaki,2000,CVD,cvd,Ischaemic heart disease,Total Mg,mM/L,80,0.949,0.082,0.082517355,0.009225721,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),70,,,,,,,,,193,0,-0.00885636,0.027307801
+,367,Sasaki,2000,Hypertension,hypertension,hypertension,Total Mg,mM/L,194,0.934,0.077,0.077199224,0.005542581,,,,,,,,,,,,,,,Japan,486,NOVA 8,NOVA,auto-analyzer (enzymic method with glucokinase),48.96,,,,,,,,,191,0,-0.005320678,0.016405841
+,367,Sasaki,2000,Healthy,Healthy Control,All,Total Mg,mM/L,56,0.935,0.105,0.105950246,0.014158197,,,,,,,,,,,,,,,Japan,,NOVA 8,NOVA,,53.57,,,,,.,,,,185,0,-0.013591359,0.041907754
+X,415,Wahr,2000,CVD,cardiac surgery,,iMg,mM/L,51,0.53,0.01,0.010099505,0.001414214,,,,,,40-77,40,77,,49,,,,2,,102,NOVA,NOVA,,76.47,,,,,,,,,209,0,-0.001357594,0.004186021
+,385,Speich,1981,Healthy,Normal,Male,iMg,mM/L,34,0.544,0.0572,0.058060199,0.009957242,,,,,,38-75,38,75,,,,,,,France,46,AAS,AAS,AAS,73.91,,,,,,,,,196,0,-0.009558594,0.029473078
+X,385,Speich,1981,Healthy,Normal,Female,iMg,mM/L,12,0.553,0.0535,0.0535,0.016130857,,,,,,38-75,38,75,,,,,,,France,46,AAS,AAS,AAS,73.91,,,,,,,,,198,0,-0.015485042,0.047746755
+,419,Wilkes,2002,CVD,cardiopulmonary bypass,,iMg,mM/L,85,0.5,0.05,0.05,0.005455447,,,,,,,,,,,,,,,UK,85,NOVA 8,NOVA,.,74.42,,,,,,,,,214,0,-0.005237033,0.016147928
+,385,Speich,1981,Healthy,Normal,Female,Total Mg,mM/L,12,0.891,0.0827,0.0827,0.024934988,,,,,,38-75,38,75,,,,,,,France,46,AAS,AAS,AAS,73.91,,,,,,,,,199,0,-0.023936691,0.073806666
+,385,Speich,1981,Healthy,Normal,Male,Total Mg,mM/L,34,0.895,0.065,0.065977498,0.011315048,,,,,,38-75,38,75,,,,,,,France,46,AAS,AAS,AAS,73.91,,,,,,,,,197,0,-0.010862038,0.033492133
+X,388,Stefikova,1999,Healthy,Postmenopausal women,,iMg,mM/L,30,0.49,,0.164316767,0.03,,,,,,,,,,,,,,,Czech Republic?,30,NOVA 8,NOVA,Kodak Ektachem analyzer 700,0,,,,,,,,,200,0,-0.028798921,0.088798918
+,388,Stefikova,1999,Healthy,Postmenopausal women,,Total Mg,mM/L,30,0.788,,0.065726707,0.012,,,,,,,,,,,,,,,Czech Republic?,30,NOVA 8,NOVA,Kodak Ektachem analyzer 700,0,,,,,,,,,201,0,-0.011519568,0.035519566
+,396,Terink,2017,Healthy,healthy athletes,,Total Mg,mM/L,18,0.81,0.07,0.072029406,0.016977494,,,,,,,,,,,,,,,Netherlands,18,pHOx Plus (NOVA),NOVA,"Vista 1500, Siemens)",50,23,2,,,,,,,203,0,-0.016297782,0.050252769
+,396,Terink,2017,Healthy,healthy athletes,,iMg,mM/L,18,0.52,0.04,0.04115966,0.009701425,,,,,,,,,,,,,,,Netherlands,18,pHOx Plus (NOVA),NOVA,"Vista 1500, Siemens)",50,23,2,,,,,,,202,0,-0.009313018,0.028715869
+,363,Sakaguchi,2018,Renal disease,hemodialysis patients,,iMg,mM/L,118,0.54,0.08,0.080341153,0.007396003,,,,,,,,,,,,,,,Japan,,pHOx Ultra NOVA,NOVA,,59,22.7,4,,,,,,,180,0,-0.007099896,0.021891901
+,397,Terink,2019,Healthy,old adults,,Total Mg,mM/L,68,0.85,0.07,0.070520453,0.008551861,,,,,,,,,,,,,,,Netherlands,68,pHOx Plus (NOVA),NOVA,"Vista 1500, Siemens)",76.6,24.8,2.7,,,,,,,205,0,-0.008209479,0.0253132
+,,Mazzaferro,2002,Renal disease,renal transplant patients,,iMg,mM/L,38,0.51,0.08,0.081073874,0.013151919,,,,,,,,,,,,,,,Italy,76,NOVA 8,NOVA,Xylidyl blue  method,65.79,,,,,,,,,107,0,-0.012625369,0.038929205
+,397,Terink,2019,Healthy,old adults,,iMg,mM/L,68,0.47,0.07,0.070520453,0.008551861,,,,,,,,,,,,,,,Netherlands,68,pHOx Plus (NOVA),NOVA,"Vista 1500, Siemens)",76.6,24.8,2.7,,,,,,,204,0,-0.008209479,0.0253132
+,201,Kozielec,2005,CVD,Group B-stable coronary artery disease,,iMg,mM/L,26,0.64,0.06,0.061188234,0.012,,,0.52,0.77,,,,,,,,,,,Poland,437,AVL 988-4,AVL,,,,,,,,,,,86,0,-0.011519568,0.035519566
+,201,Kozielec,2005,Hypertension,Group A-arterial hypertension,,iMg,mM/L,113,0.631,0.073,0.073325169,0.006897852,,,0.48,0.8,,,,,,,,,,,Poland,437,AVL 988-4,AVL,.,,,,,,,,,,85,0,-0.006621689,0.020417392
+X,211,Kyriacou,2008,CVD,AMI,AMI,iMg,mM/L,72,0.51,0.01,0.010070176,0.001186782,,,,,,,,,,,,,,,Australia,162,AVL 988-4,AVL,Vitros 700,69.4,,,,,,,,,87,0,-0.001139268,0.003512831
+,398,Thode,1998,Healthy,,,iMg,mM/L,70,0.51,0.08,0.080577625,0.009630868,,,,,,21-81,21,81,,,,,,,Denmark,70,NOVA 8,NOVA,,62.86,,,,,,,,,206,0,-0.009245287,0.028507022
+X,417,Wary,1999,Healthy,,Supplement,Total Mg,mM/L,15,0.84,0.06,0.0621059,0.016035675,,,,,,,,,,,,,,,France,30,NOVA 8,NOVA,Colorimetric assay,100,21.6,,,,,,,,213,0,-0.015393671,0.047465019
+,417,Wary,1999,Healthy,,Placebo,Total Mg,mM/L,15,0.87,0.04,0.041403934,0.01069045,,,,,,,,,,,,,,,France,30,NOVA 8,NOVA,Colorimetric assay,100,21.8,,,,,,,,211,0,-0.010262446,0.031643346
+,417,Wary,1999,Healthy,,Placebo,iMg,mM/L,15,0.49,0.05,0.051754917,0.013363062,,,,,,,,,,,,,,,France,30,NOVA 8,NOVA,Colorimetric assay,100,21.8,,,,,,,,210,0,-0.012828058,0.039554182
+,419,Wilkes,2002,CVD,cardiopulmonary bypass,,Total Mg,mM/L,85,0.69,0.09,0.09,0.009819805,,,,,,,,,,,,,,,UK,85,NOVA 8,NOVA,.,74.42,,,,,,,,,215,0,-0.00942666,0.029066268
+,417,Wary,1999,Healthy,,Supplement,iMg,mM/L,15,0.47,0.06,0.0621059,0.016035675,,,,,,,,,,,,,,,France,30,NOVA 8,NOVA,Colorimetric assay,100,21.6,,,,,,,,212,0,-0.015393671,0.047465019
+,435,Zhan,2020,Healthy,,,Total Mg,mM/L,17,0.84,0.01,0.010307764,0.0025,,,,,,18-44,18,44,25,10,2,4,1,,USA,17,NOVA 8,NOVA,AAS,41.2,24.7,3.7,,,,,,,217,0,-0.00239991,0.00739991
+X,435,Zhan,2020,Healthy,,,iMg,mM/L,17,0.52,0.03,0.030923292,0.0075,,,,,,18-44,18,44,25,10,2,4,1,,USA,17,NOVA 8,NOVA,AAS,41.2,24.7,3.7,,,,,,,216,0,-0.00719973,0.022199729
+,,Mazzaferro,2002,Healthy,renal transplant patients,,Total Mg,mM/L,38,0.82,0.08,0.081073874,0.013151919,,,,,,,,,,,,,,,Italy,76,NOVA 8,NOVA,Xylidyl blue  method,65.79,,,,,,,,,108,0,-0.012625369,0.038929205
+X,,Mazzaferro,2002,Renal disease,renal transplant patients,,Total Mg,mM/L,38,0.76,0.08,0.081073874,0.013151919,,,,,,,,,,,,,,,Italy,76,NOVA 8,NOVA,Xylidyl blue  method,65.79,,,,,,,,,109,0,-0.012625369,0.038929205
+,XX,Mazzaferro,2002,Healthy,renal transplant patients,,iMg,mM/L,38,0.53,0.05,0.050671171,0.008219949,,,,,,,,,,,,,,,Italy,76,NOVA 8,NOVA,Xylidyl blue  method,65.79,,,,,,,,,106,0,-0.007890856,0.024330754
+X,93,Dewitte,2005,Renal disease,Progressive renal failure,,iMg,mM/L,69,,,0,,,,,,,18-83,18,83,,,,,,,Belgium,69,AVL 988-4,AVL,ion chromatography,,,,,,<=0.56,,,,42,1,,
+X,127,Greenway,1996,Healthy,,All,iMg,mM/L,125,0.52,,,,,,0.44,0.59,,20-57,20,57,,,,,,,,,NOVA,NOVA,,,,,,,results are available for ICU pop,,,sd not provided here,50,1,,
+X,133,Haddad,2005,Healthy,3,Placebo,iMg,mM/L,8,0.49,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,63,1,,
+,133,Haddad,2005,Healthy,3,Magnesium,iMg,mM/L,9,0.52,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,57,1,,
+X,133,Haddad,2005,Healthy,2,Placebo,iMg,mM/L,14,0.53,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,61,1,,
+,133,Haddad,2005,Healthy,2,Magnesium,iMg,mM/L,14,0.54,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,55,1,,
+,133,Haddad,2005,Healthy,1,Magnesium,iMg,mM/L,14,0.55,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,53,1,,
+,133,Haddad,2005,Healthy,1,Placebo,iMg,mM/L,16,0.56,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,"n=30, 3 procedures ",,,,59,1,,
+X,133,Haddad,2005,Healthy,3,Placebo,Total Mg,mM/L,8,0.74,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,64,1,,
+,133,Haddad,2005,Healthy,2,Placebo,Total Mg,mM/L,14,0.76,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,62,1,,
+X,133,Haddad,2005,Healthy,3,Magnesium,Total Mg,mM/L,9,0.77,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,58,1,,
+,133,Haddad,2005,Healthy,2,Magnesium,Total Mg,mM/L,14,0.79,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,56,1,,
+X,133,Haddad,2005,Healthy,1,Magnesium,Total Mg,mM/L,14,0.82,,,,,,,,,24-75,24,75,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,54,1,,
+,133,Haddad,2005,Healthy,1,Placebo,Total Mg,mM/L,16,0.83,,,,,,,,,23-65,23,65,,,,,,,USA,30,AVL-988-4,AVL,.,50,,,,,,,,,60,1,,
+,155,Hristova,1995,Healthy,healthy volunteers,,iMg,mM/L,50,0.52,,,,,,0.44,0.62,,,,,,,,,,,,,"NOVA CRT, AVL 988-4","NOVA, AVL",AAS,101,,,,,,,,,69,1,,
+,321,Porta,2020,Healthy,,,iMg,mM/L,320,0.508,,,,,,,,,,,,,,,,,,Austria,320,Phox-M analyzer (NOVA),NOVA,.,,,,,,,,,,149,1,,
+,,,,,,,,,,0.565,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,0.56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
